@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-shadow: none;
+    font-family: sans-serif;
+    box-shadow: none;
+}
+body{
+    background: #181818;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+/* header */
+.header{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__item-link{
+    color: white;
+    font-weight: 500;
+    font-style: 16px;
+    transition: 0.5s all ease;
+}
+.header__item-link:hover{
+    color: grey;
+}
+.header__login\.btn{
+    width: 139px;
+    padding: 10px 0;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    font-weight: 500;
+    font-style: 16px;
+    text-align: center;
+    transition: 0.5s all ease;
+}
+.header__login\.btn:hover{
+    width: 150px;
+    background-color: white;
+    color: black;
+    box-shadow: -1px -2px 56px 0px white;
+}
+
+/* hero */
+.hero-section{
+    padding: 85px 0 900px 0;
+    background-image: url("../images/hero__bg.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.hero__wrapper{
+    width: 639px;
+    margin-left: 276px;
+    text-align: center;
+}
+.hero__title{
+    color: white;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 80px;
+    margin-bottom: 27px;
+}
+.hero__text{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.hero__wrapper-link{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.hero__link{
+    width: 150px;
+    padding: 15px 0;
+    border: 1px solid #4452FE;
+    background-color: #4452FE;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    transition: 0.5s all ease;
+}
+.hero__link:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: #4452FE  ;
+    box-shadow: -1px -2px 56px 0px white;
+}
+.hero__link-second{
+    width: 150px;
+    padding: 15px 0;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    transition: 0.5s all ease;
+}
+.hero__link-second:hover{
+    width: 150px;
+    background-color: white;
+    color: black;
+    box-shadow: -1px -2px 56px 0px white;
+}
